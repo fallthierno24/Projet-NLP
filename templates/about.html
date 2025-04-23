@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>À propos</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        À propos de l'application
+    </header>
+
+    <nav>
+        <a href="/">Accueil</a>
+        <a href="/predict">Faire une prédiction</a>
+        <a href="/about">À propos</a>
+    </nav>
+
+    <div class="container">
+        <h2>Présentation</h2>
+        <p>Cette application a été conçue pour automatiser la classification de Curriculum Vitae (CV) à l'aide de techniques avancées de Machine Learning.</p>
+
+        <h2>Fonctionnement</h2>
+        <p>À partir du texte extrait d'un CV, notre modèle pré-entraîné analyse le contenu et prédit la catégorie professionnelle correspondante. Le pipeline inclut une étape de vectorisation des textes (TF-IDF) et un algorithme de classification performant.</p>
+
+        <h2>Objectif</h2>
+        <p>Faciliter et accélérer le processus de tri et d’analyse de CV, en offrant une solution fiable pour les recruteurs, les entreprises et les professionnels RH.</p>
+
+        <h2>Technologies utilisées</h2>
+        <ul>
+            <li>Python (Flask)</li>
+            <li>Machine Learning (MultinomialNB)</li>
+            <li>Traitement automatique du langage naturel (NLP)</li>
+        </ul>
+    </div>
+</body>
+</html>

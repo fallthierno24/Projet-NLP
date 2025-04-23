@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Faire une prédiction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        Prédire la catégorie d'un CV
+    </header>
+
+    <nav>
+        <a href="/">Accueil</a>
+        <a href="/predict">Faire une prédiction</a>
+        <a href="/about">À propos</a>
+    </nav>
+
+    <div class="container">
+        <h2>Entrez un extrait de CV</h2>
+        <form method="POST">
+            <label for="text">Votre texte :</label>
+            <textarea name="text" id="text" placeholder="Collez ici un extrait de CV..." required></textarea>
+            <button type="submit">Prédire</button>
+        </form>
+
+        {% if prediction %}
+            <div class="result">
+                <h2>Résultat de la prédiction</h2>
+                <p><strong>Catégorie prédite :</strong> {{ prediction }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>

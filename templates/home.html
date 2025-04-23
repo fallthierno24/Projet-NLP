@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        Bienvenue sur l'application de classification de CV
+    </header>
+
+    <nav>
+        <a href="/">Accueil</a>
+        <a href="/predict">Faire une prédiction</a>
+        <a href="/about">À propos</a>
+    </nav>
+
+    <div class="container">
+        <h2>Présentation de l'application</h2>
+        <p>Cette plateforme a été développée pour automatiser la classification de Curriculum Vitae (CV) en fonction des compétences et des domaines professionnels.</p>
+
+        <h2>Comment ça fonctionne ?</h2>
+        <p>À partir d'un extrait ou du texte complet d'un CV, l'application analyse et prédit la catégorie professionnelle correspondante grâce à un modèle de Machine Learning avancé.</p>
+
+        <h2>Pourquoi utiliser cette application ?</h2>
+        <ul>
+            <li>Accélérer le tri des CV</li>
+            <li>Optimiser les processus de recrutement</li>
+            <li>Obtenir des prédictions fiables basées sur du NLP (Traitement Automatique du Langage)</li>
+        </ul>
+
+        <p style="margin-top:2rem; text-align:center;">
+            <strong>Commencez dès maintenant en cliquant sur "Faire une prédiction" !</strong>
+        </p>
+    </div>
+</body>
+</html>
