@@ -3,7 +3,7 @@ from flask import Flask, request, render_template
 import pickle
 
 # Charger le pipeline enregistré
-with open('model/pipeline.pkl', 'rb') as f:
+with open('models/pipeline.pkl', 'rb') as f:
     pipeline = pickle.load(f)
 
 app = Flask(__name__)
