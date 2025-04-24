@@ -18,4 +18,5 @@
 - pip
 
 **Lien vers l'application :**  https://projet-nlp.onrender.com/
-**Dépôt GitHub :**https://github.com/fallthierno24/Projet-NLP.git
+
+**Dépôt GitHub :** https://github.com/fallthierno24/Projet-NLP.git
