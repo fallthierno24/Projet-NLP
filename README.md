@@ -1,9 +1,9 @@
 # Classification de CV par Catégorie
 
-**Un projet Flask pour prédire la catégorie d'un CV à partir d'un extrait de texte.**
+**Un projet NLP pour prédire la catégorie d'un CV à partir d'un extrait de texte.**
 
 ## Fonctionnalités
-- **Prédiction automatique** de la catégorie d'un CV (ex: "Informatique", "Marketing", etc.).
+- **Prédiction automatique** de la catégorie d'un CV (ex: "Informatique", "Marketing", Data Science, etc.).
 - Interface web simple avec formulaire de saisie.
 - Affichage immédiat des résultats.
 
