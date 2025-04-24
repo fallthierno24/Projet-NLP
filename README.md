@@ -8,7 +8,7 @@
 - Python 3.8+
 - pip
 - virtualenv (optionnel)
-- 
+  
 ### Étapes d'installation
 
 1. **Cloner le dépôt**
