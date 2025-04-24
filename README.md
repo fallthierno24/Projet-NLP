@@ -1,6 +1,9 @@
 # Classification de CV par Catégorie
 
-**Un projet NLP pour prédire la catégorie d'un CV à partir d'un extrait de texte.**
+## Description du Projet
+### Projet NLP : Classification Automatique de CV
+
+**Un système intelligent qui catégorise automatiquement les CV (ex: "Développeur", "Data Scientist", "Marketing") en analysant leur contenu textuel.**
 
 ## Installation et exécution en local
 
