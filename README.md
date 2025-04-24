@@ -2,7 +2,43 @@
 
 **Un projet NLP pour prédire la catégorie d'un CV à partir d'un extrait de texte.**
 
-## 📂 Structure du projet  
+## Installation et exécution en local
+
+### Prérequis
+- Python 3.8+
+- pip
+- virtualenv (optionnel)
+- 
+### Étapes d'installation
+
+1. **Cloner le dépôt**
+   ```sh
+   https://github.com/fallthierno24/Projet-NLP.git
+   cd Projet-NLP
+   ```
+
+2. **Créer un environnement virtuel (optionnel mais recommandé)**
+   ```sh
+   python -m venv cv_classification
+   source cv_classification/bin/activate   # Pour Linux/Mac
+   cv_classification\Scripts\activate      # Pour Windows
+   ```
+
+3. **Installer les dépendances**
+   ```sh
+   pip install -r docs/requirements.txt
+   ```
+
+4. **Lancer l'API flask**
+   ```sh
+   app.py
+   ```
+
+## 📂 Structure du projet 
+
+Le projet est organisé comme suit :
+
+```
 projet_nlp/  
 │  
 ├── **modele/**                  # Dossier des modèles de ML 
@@ -16,7 +52,10 @@ projet_nlp/
 ├── **tester.py**                # Script de test du modèle  
 ├── **exigences.txt**            # Dépendances Python  
 ├── **README.md**                # Documentation du projet  
-└── **Projet_NLP.pptx**          # Présentation PowerPoint   
+└── **Documents**          # Documents(Présentation PowerPoint)
+│-- .gitignore                 # Fichier pour ignorer certains fichiers/dossiers dans Git
+
+```
 
 ## Fonctionnalités
 - **Prédiction automatique** de la catégorie d'un CV (ex: "Informatique", "Marketing", Data Science, etc.).
@@ -28,11 +67,6 @@ projet_nlp/
 - **Frontend** : HTML/CSS
 - **Machine Learning** : MultinomialNB
 
-## Installation
-### Prérequis
-- Python 3.8+
-- pip
 
 - **Lien vers l'application :**  https://projet-nlp.onrender.com/
 
-- **Dépôt GitHub :** https://github.com/fallthierno24/Projet-NLP.git
