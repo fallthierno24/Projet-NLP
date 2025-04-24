@@ -32,6 +32,7 @@ projet_nlp/
 ### Prérequis
 - Python 3.8+
 - pip
-**Lien vers l'application :**  https://projet-nlp.onrender.com/
 
-**Dépôt GitHub :** https://github.com/fallthierno24/Projet-NLP.git
+- **Lien vers l'application :**  https://projet-nlp.onrender.com/
+
+- **Dépôt GitHub :** https://github.com/fallthierno24/Projet-NLP.git
