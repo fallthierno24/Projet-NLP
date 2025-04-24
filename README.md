@@ -9,7 +9,7 @@ projet_nlp/
 │   ├── **static/**            # Fichiers statique (CSS)  
 │   └── **templates/**          # Pages html
 │  
-├── **venv/**                    # Environnement virtuel Python (à ajouter dans .gitignore)  
+├── **venv/**                    # Environnement virtuel Python 
 │  
 ├── **app.py**                   # Application principale Flask (backend)  
 ├── **projet_nlp.ipynb**         # Notebook d'analyse/entraînement  
