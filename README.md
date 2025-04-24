@@ -43,18 +43,18 @@ Le projet est organisé comme suit :
 ```
 projet_nlp/  
 │  
-├── **modele/**                  # Dossier des modèles de ML 
-│   ├── **static/**            # Fichiers statique (CSS)  
-│   └── **templates/**          # Pages html
+├── modele/                 # Dossier des modèles de ML 
+│   ├── static/           # Fichiers statique (CSS)  
+│   └── templates/          # Pages html
 │  
-├── **venv/**                    # Environnement virtuel Python 
+├── venv/                    # Environnement virtuel Python 
 │  
-├── **app.py**                   # Application principale Flask (backend)  
-├── **projet_nlp.ipynb**         # Notebook d'analyse/entraînement  
-├── **tester.py**                # Script de test du modèle  
-├── **exigences.txt**            # Dépendances Python  
-├── **README.md**                # Documentation du projet  
-└── **Documents**          # Documents(Présentation PowerPoint)
+├── app.py                   # Application principale Flask (backend)  
+├── projet_nlp.ipynb         # Notebook d'analyse/entraînement  
+├── tester.py                # Script de test du modèle  
+├── exigences.txt           # Dépendances Python  
+├── README.md                # Documentation du projet  
+└── Documents          # Documents(Présentation PowerPoint)
 │-- .gitignore                 # Fichier pour ignorer certains fichiers/dossiers dans Git
 
 ```
